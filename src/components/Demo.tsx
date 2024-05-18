@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { copy, linkIcon, loader, tick } from "../assets";
 import { Article } from "../types";
 import { useLazyGetSummaryQuery } from "../services/article";
-import { store } from "../services/store";
 
 export const Demo = () => {
   const [article, setArticle] = useState<Article>({
