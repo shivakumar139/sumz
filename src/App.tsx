@@ -1,9 +1,17 @@
 import "./App.css"
+import { Hero } from "./components/Hero"
+import { Demo } from "./components/Demo"
 
 export const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main>
+        <div className="main">
+            <div className="gradient"></div>
+        </div>
+        <div className="app">
+            <Hero />
+            <Demo />
+        </div>
+    </main>
   )
 }
