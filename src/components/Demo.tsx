@@ -20,12 +20,8 @@ export const Demo = () => {
     const storedArticles = JSON.parse(localStorage.getItem("articles") as string);
 
     if(storedArticles){
-      console.log("Yes");
       setAllArticles(storedArticles);
-      console.log("After", allArticles);
     }
-    console.log("allArticles", allArticles);
-    console.log("storedArticles", storedArticles);
 
   }, [allArticles]);
 
@@ -36,18 +32,13 @@ export const Demo = () => {
     
     const { data } = await getSummary(url);
 
-    console.log("data", data);
     if (data?.summary) {
-      console.log("Yes");
       const newArticle = { ...article, summary: data.summary };
       setArticle(newArticle);
       allArticles.push(newArticle);
       setAllArticles([...allArticles]);
     }
 
-    console.log("summary", data?.summary);
-    console.log("allArticles", allArticles);
-    console.log("article", article);
     
 
     localStorage.setItem("articles", JSON.stringify(allArticles));
