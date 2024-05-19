@@ -1,30 +1,61 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sumz
+Introducing Sumz, an AI-powered article summarization tool built with OpenAI GPT-4. 📚✨
 
-Currently, two official plugins are available:
+Tired of spending hours reading through lengthy articles? Sumz transforms long reads into concise, digestible summaries, saving you time and helping you stay informed with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Powered by OpenAI GPT-4: Leveraging cutting-edge AI technology for accurate and meaningful summaries.
+✅ User-Friendly Interface: Simple, intuitive, and designed for efficiency.
+✅ Open Source: Explore and contribute to our codebase on GitHub.
 
-## Expanding the ESLint configuration
+<img width="1440" alt="sumz" src="https://github.com/shivakumar139/sumz/assets/52816688/adc8ad82-3c55-4643-bc00-d2dc4b08cefa">
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+# Demo Video
+https://github.com/shivakumar139/sumz/assets/52816688/5d4096cb-0a2b-4df0-86d0-c4c146407f04
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+
+
+
+
+# Development
+1. Clone the repo into a public GitHub repository
+
+```sh
+   git clone https://github.com/shivakumar139/sumz/
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Go to the project folder
+
+```sh
+   cd sumz
+```
+
+3. Install packages with yarn
+
+```sh
+   yarn
+```
+
+4. Set up your ```.env``` file
+
+
+5. Run (in development mode)
+
+```sh
+   yarn dev
+```
+
+6. Visit
+
+```sh
+   http://localhost:5173
+```
+
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivakumar139/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/shiva_rajput_)
+
